@@ -53,8 +53,8 @@ int main()
 	std::string oExecutionPath("./DataGenerator/execution.txt");
 	std::string oInquiryPath("./DataGenerator/allinquiries.txt");
 
-	// product information (hard-coded) 
-	//!!要更新到最新
+	// product information
+	
 	Bond treasury2Y("9128285M8", CUSIP, "T", 2.750,boost::gregorian::date(2020,Nov,30)); // 2Y bond
 
 	Bond treasury3Y("9128285P1", CUSIP, "T", 2.750,boost::gregorian::date(2021,Nov,30)); // 3Y bond
@@ -76,15 +76,14 @@ int main()
 	bondProductService.Add(treasury10Y);
 	bondProductService.Add(treasury30Y);
 
-	// pv01 information
-	//!!需要更新
+	// pv01
 	std::unordered_map<string,double> pv01Treasury;
-	pv01Treasury.insert(std::make_pair(treasury2Y.GetProductId(), 0.0185));
+	pv01Treasury.insert(std::make_pair(treasury2Y.GetProductId(), 0.0134));
 	pv01Treasury.insert(std::make_pair(treasury3Y.GetProductId(), 0.01034));
-	pv01Treasury.insert(std::make_pair(treasury5Y.GetProductId(), 0.0176));
-	pv01Treasury.insert(std::make_pair(treasury7Y.GetProductId(), 0.02215));
-	pv01Treasury.insert(std::make_pair(treasury10Y.GetProductId(), 0.0202));
-	pv01Treasury.insert(std::make_pair(treasury30Y.GetProductId(), 0.0275));
+	pv01Treasury.insert(std::make_pair(treasury5Y.GetProductId(), 0.0172));
+	pv01Treasury.insert(std::make_pair(treasury7Y.GetProductId(), 0.02391));
+	pv01Treasury.insert(std::make_pair(treasury10Y.GetProductId(), 0.02));
+	pv01Treasury.insert(std::make_pair(treasury30Y.GetProductId(), 0.0286));
 
 	// bucketed sector information
 	std::vector<std::string> frontEnd{ treasury2Y.GetProductId() , treasury3Y.GetProductId() }; // front end
