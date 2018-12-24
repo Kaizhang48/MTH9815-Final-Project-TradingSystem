@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\BondService">
+      <UniqueIdentifier>{8b25c1a4-1485-49f6-a2a4-536913d1d202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataGenerator">
+      <UniqueIdentifier>{c10b18fa-7e2b-47cf-bf2c-6345375c1958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\HistoricalDataService">
+      <UniqueIdentifier>{87bb3e43-4f74-43de-aa6f-243512e6dcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Parent">
+      <UniqueIdentifier>{5b9ca9bf-c613-4e4c-8eda-cddcba382e96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BondService\BondAlgoExecution.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondAlgoStreaming.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondExecution.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondGUI.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondInquiry.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondMarketData.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondPosition.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondPricing.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondRisk.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondStreaming.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="BondService\BondTradeBooking.hpp">
+      <Filter>头文件\BondService</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator\BondInquiryDataGenerator.hpp">
+      <Filter>头文件\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator\BondMarketDataGenerator.hpp">
+      <Filter>头文件\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator\BondPriceDataGenerator.hpp">
+      <Filter>头文件\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator\BondTradeDataGenerator.hpp">
+      <Filter>头文件\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoricalDataService\BondExecutionHistoricalDataService.hpp">
+      <Filter>头文件\HistoricalDataService</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoricalDataService\BondInquiryHistoricalDataService.hpp">
+      <Filter>头文件\HistoricalDataService</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoricalDataService\BondPositionHistoricalDataService.hpp">
+      <Filter>头文件\HistoricalDataService</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoricalDataService\BondRiskHistoricalDataService.hpp">
+      <Filter>头文件\HistoricalDataService</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoricalDataService\BondStreamingHistoricalDataService.hpp">
+      <Filter>头文件\HistoricalDataService</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\executionservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\GUIService.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\historicaldataservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\inquiryservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\marketdataservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\positionservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\pricingservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\products.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\productservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\riskservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\soa.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\streamingservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\Timer.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent\tradebookingservice.hpp">
+      <Filter>头文件\Parent</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
