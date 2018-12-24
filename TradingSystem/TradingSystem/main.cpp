@@ -1,4 +1,4 @@
-﻿// Author: Kai Zhang
+// Author: Kai Zhang
 // @12/23/2018
 //Test code fot MTH 9815 Final Project TradingSystem
 
@@ -40,18 +40,18 @@ int main()
 
 	// define the path of the files (may differ between Windows and Unix)
 	// input files
-	std::string iTradePath("./Data/trades.txt");
-	std::string iPricePath("./Data/prices.txt");
-	std::string iMarketdataPath("./Data/marketdata.txt");
-	std::string iInquiryPath("./Data/inquiries.txt");
+	std::string iTradePath("./DataGenerator/trades.txt");
+	std::string iPricePath("./DataGenerator/prices.txt");
+	std::string iMarketdataPath("./DataGenerator/marketdata.txt");
+	std::string iInquiryPath("./DataGenerator/inquiries.txt");
 
 	// output files
-	std::string oPositionPath("./Data/position.txt");
-	std::string oRiskPath("./Data/risk.txt");
-	std::string oStreamPath("./Data/streaming.txt");
-	std::string oGUIPath("./Data/gui.txt");
-	std::string oExecutionPath("./Data/execution.txt");
-	std::string oInquiryPath("./Data/allinquiries.txt");
+	std::string oPositionPath("./DataGenerator/position.txt");
+	std::string oRiskPath("./DataGenerator/risk.txt");
+	std::string oStreamPath("./DataGenerator/streaming.txt");
+	std::string oGUIPath("./DataGenerator/gui.txt");
+	std::string oExecutionPath("./DataGenerator/execution.txt");
+	std::string oInquiryPath("./DataGenerator/allinquiries.txt");
 
 	// product information (hard-coded) 
 	//!!要更新到最新
